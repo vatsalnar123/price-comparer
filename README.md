@@ -49,3 +49,9 @@ Build a web application that:
 - **Turning unstructured addresses into structured model inputs**: Addresses are messy strings, but the model expects a strict schema. I handled this by generating mock features deterministically from the address (so demos are reproducible) and then carefully mapping them into the exact schema described in `model_interface.md` (including the `lot_area` vs `building_area` conditional).
 
 - **Keeping local dev and deployment paths clean**: I made the frontend call the API via `/api` in production (Vercel) and `http://127.0.0.1:8000` locally, so it works both when developing and when deployed.
+
+---
+
+## 🌐 Live Demo
+
+- **Deployment**: `https://price-comparer-five.vercel.app/`
