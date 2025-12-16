@@ -13,9 +13,10 @@ Build a web application that:
 
 ## 🛠️ Tech Stack (Recommended)
 
-- Frontend: React, HTML/CSS, Tailwind
-- Backend: Python (FastAPI or Flask)
-- Tools: Docker (optional), GitHub Copilot, Cursor, Postman
+- Frontend: React + Vite, HTML/CSS
+- Backend (local): Python + FastAPI
+- Backend (deployment): Vercel Python Serverless Functions (`/api`)
+- Deployment: Vercel
 
 ---
 
