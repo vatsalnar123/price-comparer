@@ -1,7 +1,5 @@
 # 🏠 Property Comparison & Price Prediction App (Junior Full Stack Developer Case Study)
 
-Welcome! This is a case study for evaluating junior full stack developer candidates at Agent Mira.
-
 ## 🎯 Objective
 
 Build a web application that:
@@ -13,43 +11,11 @@ Build a web application that:
 
 ---
 
-## 🧠 What You’ll Learn and Show Us
-
-- Frontend development using modern JS frameworks
-- Backend API design in Python (Flask/FastAPI)
-- Data processing and handling unstructured inputs
-- Integrating a real model object for prediction
-- Thinking through edge cases and business logic
-
----
-
 ## 🛠️ Tech Stack (Recommended)
 
 - Frontend: React, HTML/CSS, Tailwind
 - Backend: Python (FastAPI or Flask)
 - Tools: Docker (optional), GitHub Copilot, Cursor, Postman
-
----
-
-## 🔗 Files Provided
-
-- `complex_price_model_v2.pkl`: Serialized model file
-- `model_interface.md`: Description of model input schema
-- `backend/main.py`: Starter backend script (optional use)
-- `README.md`: This file
-
----
-
-## 🚀 Task Details
-
-1. Build a frontend with two input fields for property addresses.
-2. On clicking "Compare", send the addresses to the backend.
-3. Backend should:
-   - Scrape or simulate property data
-   - Prepare data using the correct schema
-   - Load and invoke the provided ML model
-4. Return estimated price and features for each property.
-5. Show the results side-by-side in the frontend.
 
 ---
 
@@ -104,16 +70,3 @@ prediction = model.predict({
     "school_rating": 9
 })
 ```
-
----
-
-## ✅ Evaluation Criteria
-
-- Clear UI and working compare flow
-- Correct use of the model and data structure
-- Thoughtfulness in debugging and schema alignment
-- Bonus: Hosting instructions, GitHub repo, styling polish
-
----
-
-Good luck! And have fun.
